@@ -9,7 +9,7 @@ int main() {
 	bool flag = 0; //true or false
 
 	float f = 1.283f;
-	double d = 521.342
+	double d = 521.342;
 
 	//vector
 	int arr[5];
