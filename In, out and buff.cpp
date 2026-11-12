@@ -5,6 +5,7 @@ int main() {
 	char buff[512];
 	cout << "What is your name?";
 	cin >> buff;
+	cin.getline(buff,64,'\n');
 	cout << "Your name is:" << buff << endl;
 	return 0;
 }
