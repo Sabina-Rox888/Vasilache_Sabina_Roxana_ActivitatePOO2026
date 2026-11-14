@@ -9,7 +9,7 @@ int main() {
 	std::string s2("C++");//direct initialisation
 
 	char d1[8];//uninitialized
-	char da2{ 8 } = { '\0' };
+	char d2{ 8 } = { '\0' };
 	char d3[8] = { 'a','b','c','d' };//aggregate initialisation
 	char d4[8] = { "abcd" };
 
