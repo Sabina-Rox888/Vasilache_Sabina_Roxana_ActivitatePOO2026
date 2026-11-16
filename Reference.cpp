@@ -7,7 +7,7 @@ int main() {
 	//Reference
 	int  &ref = x;
 	ref=6;
-	cout << "x:" << x << endl;
-	cout << "ref:" << ref << endl;
+	cout << "x:" << &x << endl;
+	cout << "ref:" << &ref << endl;
 	return 0;
 }
